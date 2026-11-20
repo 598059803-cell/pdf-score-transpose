@@ -1,0 +1,4 @@
+interface:
+  display_name: "PDF 乐谱识别与移调"
+  short_description: "将 PDF 乐谱识别为可编辑总谱，按指定调性移调并导入西贝柳斯"
+  default_prompt: "使用 $pdf-score-transpose 将这份 PDF 乐谱移到指定调性，并保存可编辑工程和校对 PDF。"

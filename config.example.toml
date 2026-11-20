@@ -1,0 +1,11 @@
+# Copy to config.local.toml and fill in your own paths. Local config is not published.
+[tools]
+pdftoppm = "pdftoppm"
+audiveris = ["Audiveris"]
+musescore = "MuseScore4"
+
+# Alternative: an installed/extracted Audiveris app with its bundled Java.
+# audiveris_home = "/path/to/Audiveris"
+# Paths with spaces are single values; command arguments can be an array.
+# pdftoppm = 'C:\Program Files\poppler\Library\bin\pdftoppm.exe'
+# musescore = 'C:\Program Files\MuseScore 4\bin\MuseScore4.exe'
